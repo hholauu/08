@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <header></header>
+    <main>
+
+        <form action="" method="post">
+            <!--Conjunto de campos-->
+            <fieldset>
+
+                <legend>Datos personales</legend> <!--Titulo-->
+
+                <div>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido">
+
+                    <label for="dni">__DNI__</label>
+                    <input type="number" name="dni" id="dni">
+
+                </div>
+                
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Interes personal</legend>
+
+                <div>
+
+                    <label for="deporte">Natación</label>
+                    <input type="radio" name="deporte" id="natacion" value="natacion">
+                    <label for="deporte">Fútbol</label>
+                    <input type="radio" name="deporte" id="futbol" value="futbol">
+                    <label for="deporte">Basquet</label>
+                    <input type="radio" name="deporte" id="basquet" value="basquet">
+
+                </div>
+
+                <div>
+
+                    <label for="equipos">Equipo favorito</label>
+                    <select name="equipos" id="equipos">
+                        <option value=""> </option>
+                        <option value="boca">Boca</option>
+                        <option value="river">River</option>
+                        <option value="messi">Messi</option>
+                        <option value="...">No me gusta el futbol</option>
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Escribe sobre ti</legend>
+
+                <label for="texto"></label>
+                <textarea name="texto" id="texto" cols="30" rows="5"></textarea>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+    
+</body>
+</html>
